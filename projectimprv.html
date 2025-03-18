@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Football Knowledge Quiz</title>
+    <link rel="icon" href="faviconproject.png" type="image/png">
+    <style>
+        body {
+            background-color: #1e3a5f;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        h1 {
+            text-shadow: 3px 3px 8px rgba(244, 162, 97, 0.7);
+            color: #f4a261;
+        }
+        table {
+            background: linear-gradient(to right, #264653, #2a9d8f);
+            margin: 50px auto 100px;
+            width: 80%;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        td {
+            width: 33%;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            transition: 0.3s;
+            color: #e9c46a;
+        }
+        .quiz-option {
+            display: block;
+            text-decoration: none;
+            color: #f4a261;
+            font-size: 1.3em;
+            transition: color 0.3s;
+        }
+        .quiz-option:hover {
+            color: #ffffff;
+        }
+        .quiz-container {
+            box-shadow: 5px 5px 15px #e9c46a;
+            height: 320px;
+            width: 400px;
+            margin: 0 auto;
+            overflow: hidden;
+            transition: transform 0.3s;
+            border-radius: 10px;
+        }
+        .quiz-container:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .name:hover {
+            color: #f4a261;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Football Knowledge Quiz</h1>
+    <table>
+        <tr>
+            <th colspan="3">
+                <h1>Choose a Quiz Edition</h1>
+            </th>
+        </tr>
+        <tr>
+            <td class="name">
+                <a href="champions_league_quiz.html" class="quiz-option">Champions League Edition</a>
+            </td>
+            <td class="name">
+                <a href="world_cup_quiz.html" class="quiz-option">World Cup Edition</a>
+            </td>
+            <td class="name">
+                <a href="national_leagues_quiz.html" class="quiz-option">National Leagues Edition</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="champions_league_quiz.html">
+                    <div class="quiz-container">
+                        <img src="1proj.jpeg" alt="Champions League">
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="world_cup_quiz.html">
+                    <div class="quiz-container">
+                        <img src="2proj.jpg" alt="World Cup">
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="national_leagues_quiz.html">
+                    <div class="quiz-container">
+                        <img src="3proj.webp" alt="National League">
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <h2 style="color: #f4a261;">Want to test your knowledge in other aspects?</h2>
+</body>
+</html>
